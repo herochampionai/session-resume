@@ -328,11 +328,11 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <title>RESUME DASHBOARD</title>
 <style>
   :root {
-    --bg: #05080f;
-    --panel: #0e1525;
-    --border: #1a2340;
-    --text: #c8d6e5;
-    --muted: #4a5a7a;
+    --bg: #080211;
+    --panel: #110221;
+    --border: #2a0b45;
+    --text: #e6d5f7;
+    --muted: #6b4099;
     --cyan: #00f0ff;
     --green: #00ff9d;
     --amber: #ffb000;
@@ -372,8 +372,9 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
   }
   .header h1 {
     font-size: 34px; font-weight: 800; letter-spacing: 1px;
-    background: linear-gradient(135deg, var(--cyan), var(--purple));
+    background: linear-gradient(135deg, var(--cyan), var(--pink));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(0,240,255,0.3);
   }
   .header .subtitle { font-size: 16px; color: var(--muted); margin-top: 2px; }
   .header-controls { display: flex; gap: 8px; align-items: center; }
@@ -777,3 +778,4 @@ if __name__ == "__main__":
     print("  > live play log")
     print("=" * 42)
     uvicorn.run(app, host="0.0.0.0", port=8765)
+
