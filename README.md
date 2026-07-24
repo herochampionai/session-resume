@@ -1,6 +1,6 @@
 # Session Resume Dashboard ⚡
 
-![Dashboard Preview](preview.jpg)
+![Dashboard Preview](preview.png)
 
 A lightweight, futuristic dashboard designed to manage and instantly resume your AI agent workflows (like Antigravity, Claude Code, Codex, and OpenCode) across multiple terminals.
 
